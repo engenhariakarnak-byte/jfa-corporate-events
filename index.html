@@ -15,7 +15,7 @@
     }
 
     .overlay {
-      background-color: rgba(0, 0, 0, 0.75);
+      background-color: rgba(0, 0, 0, 0.4); /* <- ficou mais claro */
       min-height: 100vh;
       padding: 60px 20px 40px;
     }
@@ -63,16 +63,19 @@
     }
 
     .service, .client {
-      background-color: rgba(255, 255, 255, 0.05);
+      background-color: rgba(255, 255, 255, 0.1);
       padding: 20px;
       border-radius: 10px;
-      width: 250px;
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .client img {
       max-width: 100px;
       max-height: 50px;
-      filter: brightness(0) invert(1);
+      filter: brightness(1); /* <- para logos brancos */
     }
 
     .btn-whatsapp, .btn-form {
@@ -147,12 +150,12 @@
     <section>
       <h2>Clientes Atendidos</h2>
       <div class="clients">
-        <div class="client"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/HP_logo_630x630.png" alt="HP" /></div>
-        <div class="client"><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Hasbro_logo.svg" alt="Hasbro" /></div>
-        <div class="client"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/DHL_Logo.svg" alt="DHL" /></div>
-        <div class="client"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Casas_Bahia_logo_2022.png" alt="Casas Bahia" /></div>
-        <div class="client"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Logo_TelhaNorte.svg" alt="Telha Norte" /></div>
-        <div class="client"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/COFCO_International_logo.svg" alt="Cofco" /></div>
+        <div class="client"><img src="https://i.imgur.com/5rj9tHS.png" alt="HP" /></div>
+        <div class="client"><img src="https://i.imgur.com/Gsz0Zfs.png" alt="Hasbro" /></div>
+        <div class="client"><img src="https://i.imgur.com/wGT8mRY.png" alt="DHL" /></div>
+        <div class="client"><img src="https://i.imgur.com/SQUqvva.png" alt="Casas Bahia" /></div>
+        <div class="client"><img src="https://i.imgur.com/2nR09yR.png" alt="Telha Norte" /></div>
+        <div class="client"><img src="https://i.imgur.com/I6a1KMP.png" alt="Cofco" /></div>
       </div>
     </section>
 
