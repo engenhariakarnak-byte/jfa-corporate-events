@@ -15,7 +15,7 @@
     }
 
     .overlay {
-      background-color: rgba(0, 0, 0, 0.7);
+      background-color: rgba(0, 0, 0, 0.5);
       min-height: 100vh;
       padding: 60px 20px 40px;
     }
@@ -31,7 +31,7 @@
     }
 
     .logo:hover {
-      transform: scale(1.05);
+      transform: scale(1.08);
       filter: drop-shadow(0 0 10px #00e676);
     }
 
@@ -72,7 +72,7 @@
     }
 
     .service {
-      background-color: rgba(255, 255, 255, 0.15);
+      background-color: rgba(255, 255, 255, 0.12);
       padding: 20px;
       border-radius: 10px;
       width: 230px;
@@ -83,21 +83,11 @@
     }
 
     .service img {
-      width: 42px;
+      width: 48px;
       margin-bottom: 10px;
     }
 
-    .clients {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px;
-      margin-top: 30px;
-    }
-
-    .client img {
-      max-width: 100px;
-      max-height: 60px;
+    .clients, .client img {
       filter: brightness(1);
     }
 
@@ -159,7 +149,7 @@
 <body>
   <div class="overlay">
     <header>
-      <img class="logo" src="https://i.imgur.com/fynE0qd.png" alt="Logo JFA" />
+      <img class="logo" src="https://jfaeventos.s3.amazonaws.com/Design-sem-nome-2.png" alt="Logo JFA" />
       <h1>JFA CORPORATE EVENTS</h1>
       <p>Transformamos ideias em experiências corporativas inesquecíveis.</p>
       <a href="https://wa.me/5511941590066" class="btn-whatsapp" target="_blank">Solicite um orçamento</a>
@@ -212,6 +202,8 @@
         <div class="client"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Gavilon_logo.png" alt="Gavilon" /></div>
       </div>
     </section>
+
+    <section>
       <h2>Solicite um Orçamento</h2>
       <form action="mailto:anderson@jfaeventos.com.br" method="post" enctype="text/plain">
         <input type="text" name="nome" placeholder="Seu nome" required />
@@ -220,6 +212,7 @@
         <button type="submit" class="btn-form">Enviar</button>
       </form>
     </section>
+
     <section class="video-container">
       <h2>Veja um pouco do que já realizamos</h2>
       <video controls>
@@ -234,5 +227,4 @@
   </div>
 </body>
 </html>
-
 
